@@ -262,7 +262,7 @@ class ActivationGameWorld:
         The reason for the format is so that we can use it reasonably in RL algorithms
         
         We assume for now that an already enchanted agent cannot be enchanted again by a different enchantress,
-        but this is an interesting proposition - could we pass off the enchantment to someone else?
+        but this is an interesting proposition - could we pass off the enchantment to someone else?（？）
         """
 
         sense_actions = [[char.location,"Sense"] for char in self.characters if char.isEnchanted and char.chartype != "King"]
